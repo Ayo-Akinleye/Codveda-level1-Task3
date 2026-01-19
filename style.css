@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.container {
+    background-image: url(./asset/morning.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 45vh;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.counter h2 {
+    font-size: 2rem;
+}
+
+.display-number {
+    font-size: 2rem;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+}
+
+button {
+    padding: 0.4rem;
+    outline: none;
+    border: none;
+    border-radius: 0.45rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 550;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.inc {
+    background-color: rgb(79, 203, 79);
+}
+
+.inc:hover,
+.inc:active {
+    box-shadow: -3px 3px 5px rgb(66, 229, 107);
+    background-color: rgb(43, 173, 43);
+    font-size: 1.1rem;
+}
+
+.dec {
+    background-color: rgb(231, 75, 75);
+}
+
+.dec:hover,
+.dec:Active {
+    box-shadow: -3px 3px 5px rgb(235, 97, 97);
+    background-color: rgb(236, 8, 8);
+    font-size: 1.1rem;
+}
+
+.reset {
+    background-color: rgb(71, 177, 234);
+}
+
+.reset:hover,
+.reset:active {
+    box-shadow: -3px 3px 5px rgb(96, 216, 237);
+    background-color: rgb(15, 160, 239);
+    font-size: 1.1rem;
+}
