@@ -15,8 +15,10 @@ const handleIncrease = () => {
 }
 
 const handleDecrease = () => {
-    count--
-    updateDisplay()
+    if (count > 0) {
+        count--
+        updateDisplay()
+    }
 }
 
 const handleReset = () => {
