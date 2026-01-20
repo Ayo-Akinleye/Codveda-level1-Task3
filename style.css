@@ -24,7 +24,8 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
-    width: 35%;
+    max-width: 90%;
+    width: 450px;
     height: 45vh;
     gap: 1rem;
     justify-content: center;
@@ -78,7 +79,7 @@ button {
 }
 
 .dec:hover,
-.dec:Active {
+.dec:active {
     box-shadow: -3px 3px 5px rgb(235, 97, 97);
     background-color: rgb(236, 8, 8);
     font-size: 1.1rem;
@@ -93,4 +94,27 @@ button {
     box-shadow: -3px 3px 5px rgb(96, 216, 237);
     background-color: rgb(15, 160, 239);
     font-size: 1.1rem;
+}
+
+@media (max-width: 767px) {
+    .counter {
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        padding: 1.5rem;
+        width: 70%;
+    }
+
+    button {
+        font-size: 0.875rem;
+        font-weight: 600;
+    }
+
+}
+
+/* tablet */
+@media(min-width: 768px) and (max-width: 1023px) {
+    .counter {
+        width: 80%;
+    }
 }
