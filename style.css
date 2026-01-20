@@ -100,8 +100,8 @@ button {
     .counter {
         justify-content: center;
         align-items: center;
-        padding: 1.5rem;
-        width: 70%;
+        padding: 1rem;
+        width: 80%;
     }
 
     button {
