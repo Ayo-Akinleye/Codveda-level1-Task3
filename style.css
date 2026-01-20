@@ -100,7 +100,6 @@ button {
     .counter {
         justify-content: center;
         align-items: center;
-        height: 30vh;
         padding: 1.5rem;
         width: 70%;
     }
@@ -115,6 +114,6 @@ button {
 /* tablet */
 @media(min-width: 768px) and (max-width: 1023px) {
     .counter {
-        width: 80%;
+        width: 60%;
     }
 }
